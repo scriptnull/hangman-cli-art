@@ -5,4 +5,12 @@ var art = new HangmanArt({
   marginY: 5
 })
 
-setInterval(art.next.bind(art), 1000)
+var chance = 0
+var timer = setInterval(function () {
+  if (chance < 10) {
+    art.next()
+    chance++
+  } else {
+    clearInterval(timer)
+  }
+}, 1000)
