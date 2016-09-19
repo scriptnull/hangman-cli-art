@@ -1,6 +1,6 @@
 {
   "name": "hangman-cli-art",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hangman art for command line",
   "main": "index.js",
   "scripts": {
