@@ -22,6 +22,7 @@ var art = new HangmanArt({
 
 art.next() // call next() to render next part
 ````
+Refer [source](https://github.com/scriptnull/hangman-cli-art/blob/master/index.js#L117) for other available options
 
 # Example
 Renders hangman part by part.
