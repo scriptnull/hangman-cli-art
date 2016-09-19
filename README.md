@@ -12,7 +12,7 @@ npm install --save hangman-cli-art
 # API
 
 ```javascript
-var HangmanArt = require('./index.js')
+var HangmanArt = require('hangman-cli-art')
 
 var art = new HangmanArt({
   marginX: 5,
@@ -27,7 +27,7 @@ Refer [source](https://github.com/scriptnull/hangman-cli-art/blob/master/index.j
 # Example
 Renders hangman part by part.
 ```javascript
-var HangmanArt = require('./index.js')
+var HangmanArt = require('hangman-cli-art')
 
 var art = new HangmanArt({
   marginX: 5,
@@ -48,5 +48,6 @@ var timer = setInterval(function () {
 # Badges
 [![Run Status](https://api.shippable.com/projects/57dfdf7b0973e60f00aa870e/badge?branch=master)](https://app.shippable.com/projects/57dfdf7b0973e60f00aa870e)
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+![](https://david-dm.org/scriptnull/hangman-cli-art.svg)
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
