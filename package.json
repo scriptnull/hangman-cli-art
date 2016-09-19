@@ -1,0 +1,27 @@
+{
+  "name": "hangman-cli-art",
+  "version": "1.0.0",
+  "description": "Hangman art for command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptnull/hangman-cli-art.git"
+  },
+  "keywords": [
+    "hangman",
+    "art",
+    "graphics"
+  ],
+  "author": "Vishnu Bharathi <vishnubharathi04@gmail.com> (https://twitter.com/scriptnull)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptnull/hangman-cli-art/issues"
+  },
+  "homepage": "https://github.com/scriptnull/hangman-cli-art#readme",
+  "dependencies": {
+    "axel": "0.0.3"
+  }
+}
